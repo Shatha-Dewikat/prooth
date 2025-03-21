@@ -1,0 +1,722 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Heebo:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Heebo:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <!--icon-->
+    <link rel="stylesheet" href="./assert/all.min.css">
+   <!--base-->
+   <link rel="stylesheet" href="./assert/base.css">
+   <!--main css-->
+   <link rel="stylesheet" href="./assert/main.css">
+
+    <title>Real Estate</title>
+  </head>
+  <body>
+ 
+    <nav class="navbar navbar-expand-lg fixed-top no ">
+        <div class="container navv ">
+          <a class="navbar-brand" href="#">Real Estate</a>
+          <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+            </div>
+          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              
+              
+              <li class="nav-item">
+                <a class="nav-link " href="#prop" >
+                  PROPERTIES
+                </a>
+                
+              </li>
+
+              
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BLOG
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="blog.html">All Blog Posts</a></li>
+                  <li><a class="dropdown-item" href="#blo">Single Blog Post</a></li>
+                 
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MORE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#W">Why Choose Us</a></li>
+                  <li><a class="dropdown-item" href="#C">Customer Testimonials</a></li>
+                  <li><a class="dropdown-item" href="#S">Stay Up to Date</a></li>
+               
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contact.html" tabindex="-1" aria-disabled="true">CONTACT</a>
+              </li>
+            </ul>
+           
+          </div>
+
+          <div class="user d-flex">
+           <a href="#"><i class="fa-solid fa-user"></i></a> 
+          </div>
+        </div>
+      </nav>
+
+      <section class="hedd">
+       
+        <div class="b-4 d-flex gap-3 ">
+          
+          <div class="b1">
+            <button onclick="clickk(0)" class="goo"><img src="./assert/image/prop-4-3-thmb.jpg" width="100px" height="100px" alt="Slide 1"></button>
+          </div>
+
+          <div class="b2">
+            <button onclick="clickk(1)" ><img src="./assert/image/prop-6-1-thmb (1).jpg" width="100px" height="100px" alt="Slide 2"></button>
+          </div>
+
+          <div class="b3">
+            <button onclick="clickk(2)" ><img src="./assert/image/prop-11-1-thmb.jpg" width="100px" height="100px" alt="Slide 3"></button>
+          </div>
+
+          <div class="b4">
+            <button onclick="clickk(3)" ><img src="./assert/image/prop-11-2-thmb.jpg" width="100px" height="100px" alt="Slide 4"></button>
+          </div>
+        </div>
+        <div class="back-to-top d-flex">
+          <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      <div class="swiper mySwiper">
+        
+    <div class="swiper-wrapper">
+     
+      <div class="swiper-slide">
+        <div class="slider one activv">
+            <div class="container d-flex flex-column gap-3">
+             <h1>Chic Apartment in <br>Downtown</h1>
+               <address>2 BD | 2 BA  |  920 SF </address>
+            </div>
+            <div class="total">
+              <div class="row">
+                <div class="col-6">
+                   <p class="l  mt-5 ">$890,000</p>
+                </div>
+               <div class="col-6">
+                <p class="r  mt-5 "><a href="#">VIEW DETAILS</a></p>
+               </div>
+                
+               </div>
+             <div class="color ">
+               
+             </div>
+            </div>
+           
+           </div>
+      </div>
+
+      <div class="swiper-slide">
+        
+        <div class="slider tow activv">
+            <div class="container d-flex flex-column gap-3">
+              <h1>Colorful Littel Apartment</h1>
+                <address>1 BD | 1 BA  |  500 SF </address>
+             </div>
+             <div class="total">
+              <div class="row">
+                <div class="col-6">
+                   <p class="l  mt-5 ">$2,675</p>
+                </div>
+               <div class="col-6">
+                <p class="r  mt-5"><a href="#">VIEW DETAILS</a></p>
+               </div>
+                
+               </div>
+             <div class="color ">
+               
+             </div>
+            </div>
+           </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="slider three activv">
+            <div class="container d-flex flex-column gap-3">
+              <h1>Cozy Two Bedroom<br>Apartment</h1>
+                <address>2 BD | 2 BA  |  870 SF </address>
+             </div>
+             <div class="total">
+              <div class="row">
+                <div class="col-6">
+                   <p class="l  mt-5 ">$960,000</p>
+                </div>
+               <div class="col-6">
+                <p class="r  mt-5"><a href="#">VIEW DETAILS</a></p>
+               </div>
+                
+               </div>
+             <div class="color">
+               
+             </div>
+            </div>
+           </div>
+      </div>
+
+      <div class="swiper-slide">
+          <div class="slider four activv">
+          <div class="container d-flex flex-column gap-3">
+            <h1>Modern Residence</h1>
+              <address>2 BD | 2 BA  |  920 SF </address>
+           </div>
+           <div class="total">
+            <div class="row">
+              <div class="col-6">
+                 <p class="l  mt-5 ">$7,995</p>
+              </div>
+             <div class="col-6">
+              <p class="r  mt-5"><a href="#">VIEW DETAILS</a></p>
+             </div>
+              
+             </div>
+           <div class="color ">
+             
+           </div>
+          </div>
+          
+           </div>
+      </div>
+     
+    </div>
+   
+    <div class="swiper-button-next"></div>
+    
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    
+  </div>
+
+    </section>
+    
+
+      <section class="Why" id="W"> 
+        <div class="container">
+          <div class="row g-5 g-md-5">
+            <div class="col-lg-6  col-md-12 col-sm- uu">
+              <div class="Wfirst mt-5 pt-5 ">
+                <div class="pb-5 d-flex flex-column gap-1">
+                <h1>Why Choose Us</h1>
+                <p>We offer perfect real estate services</p>
+              </div>
+                <img src="./assert/image/services-h-fig-2.jpg" alt="Why Choose Us" width="600px" height="450px">
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="Wsec ms-5  pt-5 ps-4 d-flex flex-column gap-3">
+                  <div class="d-flex gap-3">
+                    <img src="./assert/image/service-icon-1-1.svg" width="60px" height="60px" alt="location">
+                    <div class="des">
+                     <h2>Find your future home</h2>
+                     <p>We help you find a new home by offering a<br>smart real estate experience</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3">
+                    <img src="./assert/image/service-icon-2-1.svg" width="60px" height="60px" alt="location">
+                    <div class="des">
+                     <h2>Experienced agents</h2>
+                     <p>Find an agent who knows your market best</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3">
+                    <img src="./assert/image/service-icon-3-1.svg" width="60px" height="60px" alt="location">
+                    <div class="des">
+                     <h2>Buy or rent homes</h2>
+                     <p>Millions of houses and apartments in your<br> favourite cities</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex gap-3">
+                    <img src="./assert/image/service-icon-4-1.svg" width="60px" height="60px" alt="location">
+                    <div class="des">
+                     <h2>List your own property</h2>
+                     <p>Sign up now and sell or rent your own<br> properties</p>
+                    </div>
+                  </div>
+                 <div class="ww">
+                  <a class="text-uppercase" href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </section>
+
+      <section class="Featured" id="prop">
+        <div class="row g-0">
+          <div class="col-lg-4 col-md-3 col-sm-12">
+           <div class="container">
+          
+            
+              <div class="feaOne d-flex flex-column gap-2">
+                <div class="ffone d-flex flex-column gap-1 mt-5 pt-5">
+              <h1 class="mt-5 pt-5">Featured Properties</h1>
+              <p>Browse our latest hot offers</p>
+            </div>
+              <div class="ww mt-4">
+                <a class="text-uppercase" href="#">Browse All</a>
+              </div>
+            </div>
+            </div>
+          </div>
+
+            <div class="col-lg-8 col-md-9 col-sm-12">
+              
+              <div class="feaT mt-5 me-5 pt-5 pe-5 d-flex gap-4">
+
+              <button class="pre">
+               
+                  <i class="fa-solid fa-arrow-left"></i>
+                
+              </button>
+                <a  href="#" class="slid">
+                  <div class="Fonee rounded nn">
+                    <h1>Chic Apartment</h1>
+                    <p>$890,000 </p>
+                    <h3>2 BD | 2 BA | 820</h3>
+                  </div>
+                </a>
+              
+             
+
+             
+                
+                <a  href="#" class="slid">
+                 <div class="Ft rounded nn">
+                  <h1>Colorful Apartment</h1>
+                  <p>$2,675 </p>
+                  <h3>1 BD | 1 BA | 720</h3>
+                   </div>
+                </a>
+              
+             
+
+             
+               
+                <a  href="#" class="slid">
+                  <div class="Fthr rounded nn">
+                    <h1>Cozy Apartment</h1>
+                    <p>$960,000 </p>
+                    <h3>2 BD | 2 BA | 500</h3>
+                  </div>
+                </a>
+             
+               
+              
+
+                <a  href="#" class="slid">
+                  <div class="FFour rounded nn">
+                    <h1>Modern Home</h1>
+                    <p>$1,200,000</p>
+                    <h3> 3 BD | 3 BA | 720</h3>
+                </div>
+              </a>
+             
+           
+
+              <button class="nextt">
+                  
+                <i class="fa-solid fa-arrow-right"></i>
+            
+            </button>
+              
+               
+                <a  href="#" class="slid">
+                  <div class="fFive rounded nn">
+                    <h1>Luxury Loft</h1>
+                    <p>$750,000 </p>
+                    <h3> 2 BD | 2 BA | 400</h3>
+                  </div>
+                </a>
+
+                  
+                <a  href="#" class="slid">
+                  <div class="Fs rounded nn">
+                    <h1>Beachfront Villa</h1>
+                    <p>$2,500,000</p>
+                    <h3> 5 BD | 4 BA | 200</h3>
+                  </div>
+                </a>
+              
+              
+            </div>
+
+
+              
+              
+
+  
+               
+           
+              </div>
+
+
+              </div>
+            
+          
+        </div>
+      </section>
+
+      <section class="Customer" id="C">
+        
+        <div class="row g-0">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="container">
+            <div class="first d-flex flex-column gap-5">
+              <div class="fir2">
+            <h1>Customer Testimonials</h1>
+            <p>What our customers say about us</p>
+            </div>
+            <a href="#">Read All Stories</a>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="sec mt-4 ms-auto pt-5 pe-5 d-flex gap-3">
+            
+
+              <div class="slidd d-flex flex-column gap-3 justify-content-center">
+               <div class="fir d-flex flex-column justify-content-center align-items-center">
+               <img src="./assert/image/customer-1.jpg" alt="customer-1" width="110px" height="110px">
+               <h1>Derek Cotner</h1>
+               <h2>Houston, TX</h2>
+               </div>
+
+              
+               <p class="text-center">While Resideo functions like a traditional broker, the company's promise is using technology to reduce the time and friction of  buying and selling house or apartment.</p>
+             
+              </div>
+
+              <div class="slidd d-flex flex-column gap-3 justify-content-center">
+                <div class="fir d-flex flex-column justify-content-center align-items-center">
+                  <img src="./assert/image/customer-2.jpg" alt="customer-1" width="110px" height="110px">
+                  <h1>Rebecca Eason</h1>
+                  <h2>Washington, MD</h2>
+                  </div>
+   
+                 
+                  <p class="text-center">And it’s no wonder Resideo has shaken things up: As anyone who’s ever tried to rent or buy property in Washington knows, the experience is loaded with pain points.</p>
+                
+              </div>
+
+              <div class="slidd d-flex flex-column gap-3 justify-content-center">
+                <div class="fir d-flex flex-column justify-content-center align-items-center">
+                  <img src="./assert/image/customer-3.jpg" alt="customer-1" width="110px" height="110px">
+                  <h1>Kenneth Spiers</h1>
+                  <h2>Cleveland, OH</h2>
+                  </div>
+   
+                 
+                  <p class="text-center">While Resideo functions like a traditional broker, the company's promise is using technology to reduce the time and friction of  buying and selling house or apartment.</p>
+                
+              </div>
+
+              <div class="slidd d-flex flex-column gap-3 justify-content-center">
+                <div class="fir d-flex flex-column justify-content-center align-items-center">
+                  <img src="./assert/image/customer-4.jpg" alt="customer-1" width="110px" height="110px">
+                  <h1>Susanne Weil</h1>
+                  <h2>Cambridge, MA</h2>
+                  </div>
+   
+                 
+                  <p class="text-center">And it’s no wonder Resideo has shaken things up: As anyone who’s ever tried to rent or buy property in Cambridge knows, the experience is loaded with pain points.</p>
+                
+              </div>
+
+              <div class="slidd d-flex flex-column gap-3 justify-content-center">
+                <div class="fir d-flex flex-column justify-content-center align-items-center">
+                <img src="./assert/image/images (2).jfif" alt="customer-1" width="110px" height="110px">
+                <h1>Derek Cotner</h1>
+                <h2>Houston, TX</h2>
+                </div>
+ 
+               
+                <p class="text-center">While Resideo functions like a traditional broker, the company's promise is using technology to reduce the time and friction of  buying and selling house or apartment.</p>
+              
+               </div>
+
+               <div class="slidd d-flex flex-column gap-3 justify-content-center">
+                <div class="fir d-flex flex-column justify-content-center align-items-center">
+                <img src="./assert/image/customer-calling-home-featured.gpf.avif" alt="customer-1" width="110px" height="110px">
+                <h1>Derek Cotner</h1>
+                <h2>Houston, TX</h2>
+                </div>
+ 
+               
+                <p class="text-center">While Resideo functions like a traditional broker, the company's promise is using technology to reduce the time and friction of  buying and selling house or apartment.</p>
+              
+               </div>
+
+            
+          </div>
+          <div class="bu d-flex ms-auto gap-5 mt-5 pt-2">
+            <button class="pree"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="pos"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        </div>
+      </section>
+<div class="all">
+      <section class="From" id="blo">
+
+      <div class="container d-flex flex-column gap-5">
+        
+        <div class="read d-flex flex-column gap-2 ">
+          <h1 class="mt-5 pt-5">From Our Blog</h1>
+          <p>Read our latest articles on real estate.</p>
+        </div>
+        
+        <div class="Flast">
+          <a href="#fir">Read More</a>
+        </div>
+
+        <div class="Fthree thr">
+          <div class="row g-3">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <a href="#accordionExample">
+                <div class="inner rounded"  data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  <div class="inn  rounded ms-auto p-3" >
+                  <h2>Interior Design</h2>
+                  <p>What to Expect When Working with an Interior Designer</p>
+                  <h3>April 9, 2021</h3>
+                  <address>Read Article</address>
+                </div>
+              </div>
+              </a>
+            </div>
+            
+            <div class="col-lg-4 col-md-12 col-sm-12 pp2">
+              <a href="#accordionExample">
+                <div class="inner rounded inner2" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  <div class="inn  rounded ms-auto p-3 " >
+                  <h2>Architecture</h2>
+                  <p>Private Contemporary Home Balancing Openness</p>
+                  <h3>April 9, 2021</h3>
+                  <address>Read Article</address>
+                </div>
+              </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 pp">
+              <a href="#accordionExample">
+                <div class="inner rounded inner3" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <div class="inn  rounded ms-auto p-3" >
+                  <h2>Ergonomic design</h2>
+                  <p> Stylish Modern Ranch Exuding a Welcoming Feel</p>
+                  <h3>April 9, 2021</h3>
+                  <address>Read More</address>
+                </div>
+              </div>
+              </a>
+            </div>
+
+          </div>
+          
+        </div>
+     
+      </div>
+      
+      </section>
+    </div>
+      <section class="collap">
+        <div class="container ">
+        <div class="accordion rounded" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Interior Design
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>What to Expect When Working with an Interior Designer</p>
+                <h3>April 9, 2021</h3>
+                <address>Interior design is the art of creating functional and aesthetically pleasing spaces that reflect the personality and needs of the individuals who inhabit them. It focuses on the careful selection of colors, furniture, and lighting to enhance both the functionality and atmosphere of a room. A successful interior design balances comfort and style, ensuring that every element serves a purpose while contributing to the overall ambiance, creating a space that feels welcoming and inspiring.</address>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item" id="fir">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Architecture
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Private Contemporary Home Balancing Openness</p>
+                <h3>April 9, 2021</h3>
+                <address>Architecture is more than just the construction of buildings; it is an expression of visions and ideas aimed at blending beauty with functionality. Through the use of sustainable materials and innovative designs, architecture creates environments that harmonize with their surroundings and reflect the culture of the place. Modern architecture focuses on creativity in space division and the strategic use of architectural elements to enhance the experience of individuals within these spaces.</address>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               Ergonomic design
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p> Stylish Modern Ranch Exuding a Welcoming Feel</p>
+                <h3>April 9, 2021</h3>
+                <address>Ergonomic design is a philosophy aimed at improving human comfort within their surrounding environment. This type of design focuses on selecting colors and materials that contribute to enhancing psychological and physical comfort, while creating a harmonious environment that promotes relaxation and calm. By emphasizing details such as appropriate lighting and the organization of spaces, a place becomes not only beautiful but also comfortable and safe to live in.</address>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+   
+      </section>
+
+      <section class="email" id="S">
+        <div class="container">
+            <div class="compo d-flex flex-column gap-3">
+                <h1>Stay Up to Date</h1>
+                <p>Subscribe to our newsletter to receive our weekly feed</p>
+                <form id="form" class="d-flex flex-column gap-2>
+                 
+                  <div class="field">
+                    
+                    <input class="tex rounded" type="text" id="email" placeholder="Enter your email ..." >
+                  </div>
+                
+                  <input type="submit" class="bu text-uppercase" id="button" value="Subscribe"  >
+                </form>
+             
+            </div>
+        
+    </section>
+  </div>
+      <footer class="foo">
+        <div class="container pp3">
+          
+          <div class="firstfoter pb-5 px-2">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-6 ">
+              <div class="Fone d-flex flex-column gap-3">
+                <h1 class="mt-5 ms-4 pt-5">Company</h1>
+                <ul class="d-flex flex-column gap-2">
+                <li><a href="#" ><i class="fa-solid fa-angle-right"></i> &nbsp; About US</a></li>
+                <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Agent</a></li>
+                <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Blog</a></li>
+                <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Contact US</a> </li>
+                
+              </ul>   
+               </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-6 ">
+               <div class="Fone d-flex flex-column gap-3">
+                <h1 class="mt-5 ms-0 pt-5">Contact</h1>
+                <div class="contact d-flex flex-column gap-1 ">
+                <p><i class="fa-solid fa-location-dot"></i> &nbsp; 123 Street, New York, USA</p>
+                <p><i class="fa-solid fa-phone"></i> &nbsp; +012 345 67890</p>
+                <p><i class="fa-solid fa-envelope"></i> &nbsp; info@example.com</p>
+                <div class="con d-flex gap-2">
+                  <div class="ico   rounded-circle "><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                  <div class="ico   rounded-circle"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                  <div class="ico  rounded-circle"><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+                  <div class="ico   rounded-circle"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                </div>
+                 </div>
+                </div>
+               </div>
+      
+               <div class="col-lg-3 col-md-6 ">
+               
+                
+                <div class="Fone d-flex flex-column gap-3">
+                  <h1 class="mt-5 ms-5 pt-5">Action</h1>
+                  <ul class="d-flex flex-column gap-2 time">
+                  <li><a href="#" ><i class="fa-solid fa-angle-right"></i> &nbsp; Buy Properties</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Rent Properties</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Sell Properties</a></li>
+
+                  
+                </ul> 
+               </div>
+               </div>
+      
+               <div class="col-lg-3 col-md-6 ">
+               <div class="Fone d-flex flex-column gap-3">
+                <h1 class="mt-5 ms-4 pt-5">Newsletter</h1>
+                
+               
+                  <ul class="d-flex flex-column gap-2 time">
+                  <li><a href="#" ><i class="fa-solid fa-angle-right"></i> &nbsp; Home for Rent</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Apartments for Rent</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Homes for Sale</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Apartments for Sale</a></li>
+                  <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; CRM</a></li>
+                  
+                  
+                </ul> 
+               </div>
+               </div>
+               </div>
+              </div>
+          </div>
+      
+        </div>
+      </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./assert/main.js"></script>
+    <script type="text/javascript">
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  
+  <script type="text/javascript">
+    emailjs.init('q-g67gozGYDCW_j1H')
+  </script>
+  </body>
+</html>
